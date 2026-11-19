@@ -1010,6 +1010,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 日本节点"
   - "\U0001F1FA\U0001F1F2 美国节点"
   - "\U0001F1F0\U0001F1F7 韩国节点"
+  - "\U0001F30D 其他节点"
   - "\U0001F680 手动切换"
   - DIRECT
 - name: "\U0001F680 手动切换"
@@ -1649,6 +1650,171 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 台湾节点"
   - "\U0001F1F8\U0001F1EC 狮城节点"
   - "\U0001F1F0\U0001F1F7 韩国节点"
+- name: "\U0001F3A5 HBO"
+  type: select
+  proxies:
+  - "\U0001F1F8\U0001F1EC 狮城节点"
+  - "\U0001F1ED\U0001F1F0 香港节点"
+  - "\U0001F1FA\U0001F1F2 美国节点"
+  - "\U0001F1E8\U0001F1F3 台湾节点"
+  - "\U0001F1EF\U0001F1F5 日本节点"
+- name: "\U0001F3A5 HBOMAX"
+  type: select
+  proxies:
+  - "\U0001F1F8\U0001F1EC 狮城节点"
+  - "\U0001F1ED\U0001F1F0 香港节点"
+  - "\U0001F1FA\U0001F1F2 美国节点"
+  - "\U0001F1E8\U0001F1F3 台湾节点"
+  - "\U0001F1EF\U0001F1F5 日本节点"
+- name: "\U0001F3A5 Disney"
+  type: select
+  proxies:
+  - "\U0001F1F8\U0001F1EC 狮城节点"
+  - "\U0001F1ED\U0001F1F0 香港节点"
+  - "\U0001F1FA\U0001F1F2 美国节点"
+  - "\U0001F1E8\U0001F1F3 台湾节点"
+  - "\U0001F1EF\U0001F1F5 日本节点"
+- name: "\U0001F916 OpenAI"
+  type: select
+  proxies:
+  - "\U0001F1F8\U0001F1EC 狮城节点"
+  - "\U0001F1FA\U0001F1F2 美国节点"
+  - "\U0001F1ED\U0001F1F0 香港节点"
+  - "\U0001F1E8\U0001F1F3 台湾节点"
+  - "\U0001F1EF\U0001F1F5 日本节点"
+- name: "\U0001F30F 出海媒体"
+  type: select
+  proxies:
+  - DIRECT
+  - "\U0001F1ED\U0001F1F0 香港节点"
+  - "\U0001F1E8\U0001F1F3 台湾节点"
+  - "\U0001F1F8\U0001F1EC 狮城节点"
+  - "\U0001F1EF\U0001F1F5 日本节点"
+- name: "\U0001F18E AdBlock"
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: "\U0001F6E1️ 隐私防护"
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+- name: "\U0001F30D 其他节点"
+  type: select
+  proxies:
+  - "\U0001F1EC\U0001F1E7 V393U-1x-BGP-UK"
+  - "\U0001F1E9\U0001F1EA V394U-1x-BGP-DE"
+  - "\U0001F1F7\U0001F1FA 俄罗斯-广东专线 PQ"
+  - "\U0001F1F7\U0001F1FA 俄罗斯-上海专线 PQ"
+  - "\U0001F1EB\U0001F1F7 法国-广东专线 BGP"
+  - "\U0001F1EB\U0001F1F7 法国-上海专线 BGP"
+  - "\U0001F1EC\U0001F1E7 英国-广东专线 BGP"
+  - "\U0001F1EC\U0001F1E7 英国-上海专线 BGP"
+  - "\U0001F1EC\U0001F1E7 英国-广东专线 Scaleblade"
+  - "\U0001F1EC\U0001F1E7 英国-上海专线 Scaleblade"
+  - "\U0001F1E8\U0001F1E6 加拿大-广东专线 BGP"
+  - "\U0001F1E8\U0001F1E6 加拿大-上海专线 BGP"
+  - "\U0001F1E9\U0001F1EA 德国-广东专线 BGP"
+  - "\U0001F1E9\U0001F1EA 德国-上海专线 BGP"
+  - "\U0001F1E6\U0001F1FA 澳大利亚-广东专线 VUAU"
+  - "\U0001F1E6\U0001F1FA 澳大利亚-上海专线 VUAU"
+  - "\U0001F1E6\U0001F1FA 澳大利亚-广东专线 GCore"
+  - "\U0001F1E6\U0001F1FA 澳大利亚-上海专线 GCore"
+  - "\U0001F1F2\U0001F1FE 马来西亚-广东专线 Shin"
+  - "\U0001F1F2\U0001F1FE 马来西亚-上海专线 Shin"
+  - "\U0001F1F5\U0001F1ED 菲律宾-广东专线 KPC"
+  - "\U0001F1F5\U0001F1ED 菲律宾-上海专线 KPC"
+  - "\U0001F1F5\U0001F1ED 菲律宾-广东专线 Comfac"
+  - "\U0001F1F5\U0001F1ED 菲律宾-上海专线 Comfac"
+  - "\U0001F1F9\U0001F1ED 泰国-广东专线 Bangmod"
+  - "\U0001F1F9\U0001F1ED 泰国-上海专线 Bangmod"
+  - "\U0001F1F9\U0001F1F7 土耳其-广东专线 Kapteyan"
+  - "\U0001F1F9\U0001F1F7 土耳其-上海专线 Kapteyan"
+  - "\U0001F1F9\U0001F1F7 土耳其-广东专线 GCore"
+  - "\U0001F1F9\U0001F1F7 土耳其-上海专线 GCore"
+  - "\U0001F1E6\U0001F1F7 阿根廷-广东专线 DonWeb"
+  - "\U0001F1E6\U0001F1F7 阿根廷-上海专线 DonWeb"
+  - "\U0001F1F3\U0001F1EC 尼日利亚-广东专线 Melbicom"
+  - "\U0001F1F3\U0001F1EC 尼日利亚-上海专线 Melbicom"
+  - "\U0001F1FA\U0001F1E6 乌克兰-广东专线 Vik"
+  - "\U0001F1FA\U0001F1E6 乌克兰-上海专线 Vik"
+  - "\U0001F1E7\U0001F1F7 巴西-广东专线 GCore 1"
+  - "\U0001F1E7\U0001F1F7 巴西-上海专线 GCore 1"
+  - "\U0001F1E7\U0001F1F7 巴西-广东专线 GCore 2"
+  - "\U0001F1E7\U0001F1F7 巴西-上海专线 GCore 2"
+  - "\U0001F1EE\U0001F1F3 印度-广东专线 DOIN"
+  - "\U0001F1EE\U0001F1F3 印度-上海专线 DOIN"
+  - "\U0001F1EE\U0001F1F3 印度-广东专线 GCore"
+  - "\U0001F1EE\U0001F1F3 印度-上海专线 GCore"
+  - "\U0001F1F8\U0001F1E6 沙特-广东专线 STC"
+  - "\U0001F1F8\U0001F1E6 沙特-上海专线 STC"
+  - "\U0001F1E6\U0001F1F6 南极-广东专线 WARP"
+  - "\U0001F1E6\U0001F1F6 南极-上海专线 WARP"
+rule-providers:
+  BanEasyList:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+    path: "./ruleset/aftermerge/BanEasyList.list"
+    interval: 86400
+  BanEasyListChina:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+    path: "./ruleset/aftermerge/BanEasyListChina.list"
+    interval: 86400
+  BanEasyPrivacy:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+    path: "./ruleset/aftermerge/BanEasyPrivacy.list"
+    interval: 86400
+  OpenAi:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/OpenAi.list
+    path: "./ruleset/aftermerge/OpenAi.list"
+    interval: 86400
+  BilibiliHMT:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+    path: "./ruleset/aftermerge/BilibiliHMT.list"
+    interval: 86400
+  IqiyiHMT:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/IqiyiHMT.list
+    path: "./ruleset/aftermerge/IqiyiHMT.list"
+    interval: 86400
+  HBOUSA:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOUSA/HBOUSA.list
+    path: "./ruleset/aftermerge/HBOUSA.list"
+    interval: 86400
+  HBO:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list
+    path: "./ruleset/aftermerge/HBO.list"
+    interval: 86400
+  Disney:
+    type: http
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list
+    path: "./ruleset/aftermerge/Disney.list"
+    interval: 86400
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1718,6 +1884,9 @@ rules:
   - DOMAIN-SUFFIX,FamilyDS.com,🎯 全球直连
   - DOMAIN-SUFFIX,FamilyDS.net,🎯 全球直连
   - DOMAIN-SUFFIX,FamilyDS.org,🎯 全球直连
+  - RULE-SET,BanEasyList,🆎 AdBlock
+  - RULE-SET,BanEasyListChina,🆎 AdBlock
+  - RULE-SET,BanEasyPrivacy,🛡️ 隐私防护
   - DOMAIN-KEYWORD,admarvel,🛑 广告拦截
   - DOMAIN-KEYWORD,admaster,🛑 广告拦截
   - DOMAIN-KEYWORD,adsage,🛑 广告拦截
@@ -3552,6 +3721,7 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报消息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报消息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报消息,no-resolve
+  - RULE-SET,OpenAi,🤖 OpenAI
   - DOMAIN-KEYWORD,anthropic,💬 Ai平台
   - DOMAIN-KEYWORD,claude,💬 Ai平台
   - DOMAIN-KEYWORD,openai,💬 Ai平台
@@ -3765,6 +3935,8 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,📺 巴哈姆特
   - DOMAIN-SUFFIX,bahamut.com.tw,📺 巴哈姆特
   - DOMAIN-SUFFIX,gamer.com.tw,📺 巴哈姆特
+  - RULE-SET,BilibiliHMT,🌏 出海媒体
+  - RULE-SET,IqiyiHMT,🌏 出海媒体
   - DOMAIN,p-bstarstatic.akamaized.net,📺 哔哩哔哩
   - DOMAIN,p.bstarstatic.com,📺 哔哩哔哩
   - DOMAIN,upos-bstar-mirrorakam.akamaized.net,📺 哔哩哔哩
@@ -3843,6 +4015,9 @@ rules:
   - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
   - DOMAIN-SUFFIX,youku.com,🌏 国内媒体
   - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
+  - RULE-SET,HBOUSA,🎥 HBOMAX
+  - RULE-SET,HBO,🎥 HBO
+  - RULE-SET,Disney,🎥 Disney
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
   - DOMAIN-KEYWORD,anthropic,🌍 国外媒体
